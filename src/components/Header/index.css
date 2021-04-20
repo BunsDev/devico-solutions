@@ -1,0 +1,30 @@
+.header {
+    z-index: 0;
+    height: 170px;
+    display: flex;
+    flex: 1;
+    background: #3934A1;
+    margin-bottom: 55px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.header .bg-img{
+    height: 200px;
+    margin-top: 35px;
+}
+
+.header .logo-img{
+    background-color: transparent;
+    position: absolute;
+    height: 111px;
+    width: 111px;
+    z-index: 999999999;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+

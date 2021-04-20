@@ -1,0 +1,95 @@
+.page{
+    display: flex;
+    margin-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    flex-direction: row;
+}
+
+.page:active{
+    opacity: 0.5
+}
+
+.page-logo {
+    margin-top: 8px;
+    width: auto;
+    min-width: 48px;
+    height: 48px;
+    border-radius: 9px;
+    margin-right: 16px;
+}
+
+.page-logo-small{
+    min-width: 32px;
+    height: 32px;
+}
+
+.page-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    color: #24292E;
+    text-align: left;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.page-name-small {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.page-desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+    color: #6A737D;
+}
+
+.page-content {
+    width: 80%;
+}
+
+.page-url {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+    color: #037DD6;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+
+.page-close{    
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    margin-right: 17px;
+    margin-top: -5px;
+    text-align: center;
+    background-color: transparent;
+    display: block;
+    box-sizing: content-box;
+    border: 0px;
+}
